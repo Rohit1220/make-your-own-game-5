@@ -8,10 +8,10 @@ var end = 0;
 var gameState = play;
 function preload()
 {
-  player_img = loadImage("images/fighterplane.png");
-  computer_img = loadImage("images/computerplane.png");
-  explosion = loadImage("images/explosion.jpg");
-  coinsIMG = loadAnimation("images/coin.png","images/coin1.png","images/coin2.png","images/coin3.png","images/coin4.png");
+  player_img = loadImage("fighterplane.png");
+  computer_img = loadImage("computerplane.png");
+  explosion = loadImage("explosion.jpg");
+  coinsIMG = loadAnimation("coin.png","coin1.png","coin2.png","coin3.png","coin4.png");
 }
 function setup(){
   canvas = createCanvas(500,1000);
